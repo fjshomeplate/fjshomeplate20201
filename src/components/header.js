@@ -27,6 +27,29 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h2>
+      <Link
+      to="/#wwa"
+      style={{
+        color: `white`,
+        textDecoration: `none`,
+      }}
+      >
+      Who We Are
+      </Link>
+      </h2>
+      <h2>
+      <Link
+      to="/#wwd"
+      style={{
+        color: `white`,
+        textDecoration: `none`,
+      }}
+      >
+      What We Do
+      </Link>
+      </h2>
+      <button id="getstarted"href="">Get Started</button>
     </div>
   </header>
 )
